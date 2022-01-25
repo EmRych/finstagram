@@ -1,6 +1,6 @@
 header {
-    background-color:#244751;
-    color: #E8FDFF;
+    background-color:#15647a;
+    color: #f5feff;
     font-family: 'Mochiy Pop P One', sans-serif;
     align-items: center;
 }
@@ -19,7 +19,7 @@ header img:hover {
     100% {transform: rotate(-360deg);}
 }
 body{
-    background-color: wheat;
+    background-color: #fff6eb;
     font-family: 'Oswald', sans-serif;
 }
 main {
@@ -42,4 +42,8 @@ a.photo:hover {
 }
 .user-info {
     align-items: center;
+}
+article {
+    border: solid #303030 3px;
+    padding:10px;
 }
