@@ -47,3 +47,11 @@ article {
     border: solid #303030 3px;
     padding:10px;
 }
+i {
+    padding-left: 10px;
+}
+i.fa-bell {
+    position:relative;
+    left: 73%;
+    font-size: x-large;
+}
