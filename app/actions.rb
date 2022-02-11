@@ -15,8 +15,11 @@ post '/signup' do
   username   = params[:username]
   password   = params[:password]
 
-  user = User.new({ email: email, avatar_url: avatar_url, username: username, password: password })
-  user.save
-
-  escape_html user.inspect
+  @user = User.new({ email: email, avatar_url: avatar_url, username: username, password: password })
+  
+  if @user.save
+    "User #{username} saved!"
+  else
+    erb(:signup)
+  end
 end
