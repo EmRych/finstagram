@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: #8da7b8;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ input[type=text], input[type=password], input[type=email] {
 header {
   overflow: hidden;
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 header > .login-info {

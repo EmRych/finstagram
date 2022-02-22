@@ -1,37 +1,33 @@
 header {
-    background-color:#15647a;
-    color: #f5feff;
+    background-color:#238eac;
+    color: #ffffff;
     font-family: 'Mochiy Pop P One', sans-serif;
-    align-items: center;
 }
-header img {
-    border-radius: 10%;
-    height:50px;
-    width:50px;
-    margin-left: 20px;
-    margin-right: 20px;
+header .login-info {
+    padding-right: 4%;
 }
-header img:hover {
-    animation: backflip 0.5s backwards;
-
+header .login-info .l{
+    padding-right:13px;
+    color: #ffffff;
 }
-@keyframes backflip {
-    100% {transform: rotate(-360deg);}
+header .head {
+    color: #ffffff;
 }
 body{
-    background-color: #fff6eb;
-    font-family: 'Oswald', sans-serif;
+    background-color: #ffffff;
+    font-family: 'Roboto Serif', sans-serif;
+    color: #303030;
 }
 main {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 16px;
 }
 .finstagram-post {
     margin-bottom: 48px;
 }
 .finstagram-post .user-info img {
-    height:50px;
-    width:50px;
+    height:60px;
+    width:60px;
     border-radius: 100%;
 }
 a.photo {
@@ -47,11 +43,4 @@ article {
     border: solid #303030 3px;
     padding:10px;
 }
-i {
-    padding-left: 10px;
-}
-i.fa-bell {
-    position:relative;
-    left: 73%;
-    font-size: x-large;
-}
+
