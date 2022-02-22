@@ -43,4 +43,10 @@ article {
     border: solid #303030 3px;
     padding:10px;
 }
+header img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    margin-left: 20px;
 
+}

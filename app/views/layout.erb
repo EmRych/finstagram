@@ -15,13 +15,14 @@
     <h1>
     <a class='head' href="/">Finstagram</a>
     </h1>
+    <img class='logo' src='https://us.123rf.com/450wm/archivector/archivector2103/archivector210300025/166173148-whale-in-sea-wave-graphic-icon-tail-whale-sign-isolated-on-white-background-sea-life-symbol-logo-vec.jpg?ver=6' alt='fin'>
       <div class="login-info">
         <% if current_user %>
-          <%= current_user.username %>
-          <a class='head'href="/logout">Logout</a>
+          Welcome back, <%= current_user.username %>!
+          <a class='head'href="/logout">| Logout</a>
         <% else %>
           <a class='l' href="/login">Login</a>
-          <a class='head'href="/signup">Signup</a>
+          <a class='head'href="/signup">| Signup</a>
         <% end %>
       </div>
     </header>
